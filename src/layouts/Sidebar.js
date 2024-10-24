@@ -1,7 +1,16 @@
 import Link from "next/link";
+import { useState } from "react";
 import { Modal } from "react-bootstrap";
+import { subscribeToNewsletter } from "../utils/api";
 
 const Sidebar = ({ show, handleClose }) => {
+  const [email, setEmail] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(email);
+    subscribeToNewsletter(email);
+  }
   return (
     <Modal
       className="modal fade sidebar-panel-wrapper"
@@ -99,6 +108,8 @@ const Sidebar = ({ show, handleClose }) => {
                         type="email"
                         className="form_control"
                         placeholder="Email Address"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
                         required
                       />
                       <button className="main-btn secondary-btn">

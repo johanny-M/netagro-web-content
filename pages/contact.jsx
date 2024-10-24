@@ -178,6 +178,8 @@ const Contact = () => {
                         className="form_control"
                         placeholder="Subject"
                         name="subject"
+                        value={form.subject}
+                        onChange={handleChange}
                         required
                       />
                     </div>
