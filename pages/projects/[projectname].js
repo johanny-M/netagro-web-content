@@ -34,7 +34,7 @@ const ProjectDetails = () => {
 
   return (
     <Layout>
-      <PageBanner pageName={ project[0].projectName} />
+      <PageBanner pageName={project[0].projectName} />
       {/*====== Start Project-Details section ======*/}
       <section className="project-details-section pt-95">
         <div className="container">

@@ -31,21 +31,21 @@
 
 -----------------------------------------------------------------------------------*/
 .sidebar-widget-area .widget-search form .form_control::-webkit-input-placeholder, .sidebar-widget-area .widget-newsletter .sidebar-content .form_control::-webkit-input-placeholder {
-  color: #0B3D2C;
+  color: #146F50;
 }
 .sidebar-widget-area .widget-search form .form_control::-moz-placeholder, .sidebar-widget-area .widget-newsletter .sidebar-content .form_control::-moz-placeholder {
-  color: #0B3D2C;
+  color: #146F50;
 }
 .sidebar-widget-area .widget-search form .form_control:-ms-input-placeholder, .sidebar-widget-area .widget-newsletter .sidebar-content .form_control:-ms-input-placeholder {
-  color: #0B3D2C;
+  color: #146F50;
 }
 .sidebar-widget-area .widget-search form .form_control::-ms-input-placeholder, .sidebar-widget-area .widget-newsletter .sidebar-content .form_control::-ms-input-placeholder {
-  color: #0B3D2C;
+  color: #146F50;
 }
 .footer-gallery-widget .gallery-list li a .hover-overlay i, .footer-experience-widget .experience-box-two h2.number, .single-info-item.style-three .info h4.title, .single-info-item.style-three .info span, .single-information-item .icon, .gadden-pagination li a, .sidebar-widget-area .widget-price-filter .price-number input, .sidebar-widget-area .widget-tag-cloud a, .sidebar-widget-area .widget-service-nav ul li a, .sidebar-widget-area .widget-search form .form_control::placeholder, .product-details-wrapper .product-info ul.social-link li span, .product-details-wrapper .product-info .product-meta li span, .single-pricing-item:hover .pricing-body .pricing-button .main-btn, .team-details-wrapper .member-info .member-meta .member-contact-info ul.social-link li a, .team-details-wrapper .member-info .member-meta .member-contact-info p, .single-gallery-item .gallery-img .hover-overlay .icon-btn, .project-details-wrapper .project-info-widget .info-content ul li span, .single-project-item-three .project-img .icon-btn, .project-filter li, .single-service-item .service-info .icon i, .single-category-item .icon i, .features-list li, .single-features-item .text h5.title, .single-features-item .icon i, .features-thumb-item-two .text .icon i, .features-thumb-item .content .icon-btn, .features-thumb-item .content .icon i, .circle-logo .inner-circle i, .about-features-item .icon, .about-two_content-box .about-inner-content .experience-box-two h6, .header-three .header-navigation .nav-right-item .nice-select ul.list li, .header-two .header-navigation.sticky .nav-right-item .lang-dropdown .nice-select, .header-two .header-navigation.sticky .main-menu ul > li > a, .header-one .header-navigation .main-menu ul > li .search-btn, .header-navigation.breakpoint-on .nav-search .search-btn, .btn-link:hover, .sub-title, .sidebar-widget-area .widget-newsletter .sidebar-content .form_control::placeholder, .client-quote-box .text h2.number, .hero-slider-two .slick-arrow:hover, .btn-link, .main-btn.filled-btn, h1,
 h2,
 h3, h4, h5, h6, .comments-area .comment .comment-wrap .comment-author-content span.author-name, .hero-content .sub-title, h3, h2, h1 {
-  color: #0B3D2C;
+  color: #146F50;
 }
 
 .footer-nav-widget .footer-nav li a:hover, .contact-info-widget .info-list li a:hover, .single-information-item .info h5:hover a, .contact-info-item-two h6.title i, .contact-info-item .info h6:hover a, .sidebar-widget-area .widget-recent-post .recent-post-list .post-thumbnail-content .post-title-date h6:hover, .sidebar-widget-area .widget-recent-post .recent-post-list .post-thumbnail-content .post-title-date span.posted-on:hover, .post-navigation-item .post-nav-item .content span.post-date:hover, .post-navigation-item .post-nav-item .content h6:hover, .post-author-box .author-content ul.social-link li a:hover, .blog-details-wrapper .blog-post .entry-footer .social-share a:hover, .single-blog-post-four .entry-content .btn-link:hover, .single-blog-post-four .entry-content h4.entry-title:hover, .single-blog-post-three .entry-content h3.title:hover, .single-blog-post-three .entry-content .author h6:hover a, .single-blog-post-two .entry-content h4.entry-title:hover, .single-blog-post-two .entry-content .author h6:hover a, .single-blog-post .entry-content h4.entry-title:hover, .single-blog-post .entry-content .cat-link:hover, .post-meta span:hover, .checkout-faqs .alert h6 a:hover, .product-details-wrapper .product-info ul.social-link li a, .product-details-wrapper .product-info .product-meta li a:hover, .product-details-wrapper .product-info span.price, .product-details-wrapper .product-info ul.ratings li a:hover, .single-product-item .product-info h4:hover, .single-pricing-item-two .pricing-body ul li i, .single-pricing-item .pricing-body ul li i, .team-details-wrapper .member-info .member-meta .member-contact-info p a:hover, .single-team-item .member-info h3.title:hover, .single-project-item-four .project-img .project-content .text h3.title:hover, .project-filter li:hover, .project-filter li.active, .navigation-item .text h3.title:hover, .single-service-item .service-info h4.title:hover, .cta-two_content-box h4, .single-process-item .icon, .fancy-icon-box-two .icon i, .fancy-icon-box .icon i, .experience-box-two h6, .experience-box .btn-link, .fancy-about-item .text h5 i, .about-two_content-box .about-inner-content .experience-box-two h2.number, .hero-play .video-popup, .navigation-white.header-navigation .main-menu ul > li:hover > a, .header-three .header-navigation .nav-right-item .menu-button .main-btn.secondary-btn:hover, .header-two .header-navigation .main-menu ul > li:hover > a, .header-two .header-navigation.sticky .main-menu ul > li .sub-menu li a:hover, .header-one .header-navigation .main-menu ul > li .search-btn:hover, .header-top-bar-two .top-right .social-link li a:hover, .header-top-bar-two .top-left span:hover a, .header-top-bar-two .top-left span i, .header-top-bar-two .top-left span b, .header-top-bar .top-right ul.social-link li a:hover, .header-navigation .main-menu ul > li:hover > a, .header-navigation .main-menu ul > li .sub-menu li:hover > a, .header-navigation .main-menu ul > li .sub-menu li a:hover {
@@ -65,7 +65,7 @@ h3, h4, h5, h6, .comments-area .comment .comment-wrap .comment-author-content sp
 }
 
 .testimonial-wrapper-two, .footer-about-widget .widget-content form .submit-btn, .gray-bg .footer-widget h4.widget-title:after, .single-info-item.style-two, .single-info-item.style-one .info .main-btn.golden-btn:hover, .sidebar-widget-area .widget-price-filter .ui-slider-horizontal .ui-slider-handle, .sidebar-widget-area .widget-price-filter .ui-slider-range, .sidebar-widget-area .widget-tag-cloud a:hover, .sidebar-widget-area .widget-banner, .sidebar-widget-area .widget-service-nav ul li a:hover, .sidebar-widget-area .widget-post-author .author-content ul.social-link li a, .sidebar-widget-area .sidebar-widget h4.widget-title:after, .single-blog-post .entry-content .author-meta .icon-btn, .single-blog-post .entry-content .cat-link:before, .single-product-item .discount, .single-pricing-item-two:hover .pricing-body .pricing-button .main-btn, .single-pricing-item:hover, .team-details-wrapper .member-info .member-meta .member-contact-info ul.social-link li a:hover, .project-details-wrapper .project-info-widget .info-content h6:after, .project-filter li:after, .single-category-item:hover .icon i, .social-box ul.social-link, .single-process-item:hover .icon, .single-process-item:hover .step, .fancy-icon-box-two:hover, .client-avatar-box-two .avatar-thumbs ul li .icon-btn, .experience-box-two .icon-btn, ul.check-style-one li i, .header-two .header-navigation .navbar-toggler span, .header-one .header-navigation .nav-right-item .navbar-toggler span, .header-top-bar-two .top-right .social-link li a:after, .header-navigation.breakpoint-on .nav-menu .main-menu ul li .dd-trigger, .header-navigation .main-menu ul > li .sub-menu, .main-btn.filled-btn.filled-white:hover, .main-btn.secondary-btn:hover, .main-btn.primary-btn, .main-bg {
-  background-color: #0B3D2C;
+  background-color: #146F50;
 }
 
 .sidebar-panel-wrapper .sidebar-wrapper .sidebar-information-area .sidebar-info-widget .social-item ul.social-link li a:hover, .features-section-two .experience-box-two .icon-btn, .footer-nav-widget .footer-nav li a:after, .footer-about-widget .widget-content form .submit-btn:hover, .footer-about-widget .widget-content .main-btn.filled-btn:hover, .single-info-item.style-one, .gadden-pagination li a:hover, .sidebar-widget-area .widget-post-author .author-content ul.social-link li a:hover, .blog-details-wrapper .blog-post .entry-footer .tag-links a:hover, .blog-details-wrapper .blog-post .entry-content .wp-block-quote span:before, .single-blog-post .entry-content .cat-link:hover:before, .description-wrapper .content-box ul.check-style-one li i, .product-details-wrapper .product-info ul.social-link li a:hover, ul.slick-dots li:after, .team-details-wrapper .member-info .member-meta .member-contact-info .icon, .skill-image-box .circle-logo, .single-skill-bar .progress-bar .progress, .single-team-item:hover .member-img .icon-btn, .project-details-wrapper ul.check-style-one li i, .single-project-item-three .project-img .hover-content, .single-project-item-two .project-img .project-overlay .hover-content, .service-info-wrapper ul.check-style-one li i, .single-service-item .service-img .icon-btn i, .single-counter-item:hover .icon, .features-thumb-item-two:hover .text .icon, .choose-content-box .thumb-content .check-style-one li i, .choose-nav-tab .nav-link.active:after, .header-two .header-navigation .site-branding a.brand-logo, .back-to-top:hover, .back-to-top:focus, .main-btn.filled-btn:hover, .main-btn.golden-btn:hover, .main-btn.secondary-btn, .main-btn.primary-btn:hover {
@@ -728,7 +728,7 @@ button {
 .preloader .pre-box {
   width: 50px;
   height: 50px;
-  background: #0B3D2C;
+  background: #146F50;
   -webkit-animation: loaderAnimate 0.5s linear infinite;
           animation: loaderAnimate 0.5s linear infinite;
   position: absolute;
@@ -807,7 +807,7 @@ button {
 }
 /*====== Start Back to top css ======*/
 .back-to-top {
-  background-color: #0B3D2C;
+  background-color: #146F50;
   border-radius: 50%;
   bottom: 30px;
   color: #fff;
@@ -2267,7 +2267,7 @@ ul.check-style-one li i {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: 2px dashed #0B3D2C;
+  border: 2px dashed #146F50;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -2289,7 +2289,7 @@ ul.check-style-one li i {
 .experience-box h4 {
   color: #2F2F2F;
   padding-bottom: 21px;
-  border-bottom: 1px solid #0B3D2C;
+  border-bottom: 1px solid #146F50;
   margin-bottom: 22px;
 }
 .experience-box-two {
@@ -2297,8 +2297,8 @@ ul.check-style-one li i {
   max-width: 200px;
   text-align: center;
   padding: 25px 40px 35px;
-  border: 1px solid #0B3D2C;
-  border-top: 5px solid #0B3D2C;
+  border: 1px solid #146F50;
+  border-top: 5px solid #146F50;
 }
 .experience-box-two h2.number {
   margin-bottom: 15px;
@@ -2692,7 +2692,7 @@ ul.check-style-one li i {
   transform: rotate(-45deg);
 }
 .features-list li:hover {
-  border-color: #0B3D2C;
+  border-color: #146F50;
 }
 
 /*--==== Process Item ====--*/
@@ -4903,7 +4903,7 @@ ul.slick-dots li.slick-active {
   }
 }
 .single-pricing-item-two:hover {
-  border-color: #0B3D2C;
+  border-color: #146F50;
 }
 .single-pricing-item-two .pricing-body .pricing-title {
   padding-bottom: 29px;
@@ -5142,7 +5142,7 @@ ul.slick-dots li.slick-active {
   }
 }
 .description-tabs .nav-link:hover, .description-tabs .nav-link.active {
-  border-color: #0B3D2C;
+  border-color: #146F50;
 }
 
 /*--==== Description Wrapper ====--*/
@@ -5188,16 +5188,16 @@ ul.slick-dots li.slick-active {
   line-height: 1.5;
 }
 .review-form .form_control.placeholder {
-  color: #0b3d2c;
+  color: #146F50;
 }
 .review-form .form_control:-moz-placeholder {
-  color: #0b3d2c;
+  color: #146F50;
 }
 .review-form .form_control::-moz-placeholder {
-  color: #0b3d2c;
+  color: #146F50;
 }
 .review-form .form_control::-webkit-input-placeholder {
-  color: #0b3d2c;
+  color: #146F50;
 }
 
 /*--==== Product Slider ====--*/
@@ -5327,19 +5327,19 @@ ul.slick-dots li.slick-active {
   font: 600 16px "Montserrat", sans-serif;
   background-color: transparent;
   border: 1px solid rgba(11, 61, 44, 0.1);
-  color: #0B3D2C;
+  color: #146F50;
 }
 .checkout-faqs .alert form .form_control.placeholder {
-  color: #0B3D2C;
+  color: #146F50;
 }
 .checkout-faqs .alert form .form_control:-moz-placeholder {
-  color: #0B3D2C;
+  color: #146F50;
 }
 .checkout-faqs .alert form .form_control::-moz-placeholder {
-  color: #0B3D2C;
+  color: #146F50;
 }
 .checkout-faqs .alert form .form_control::-webkit-input-placeholder {
-  color: #0B3D2C;
+  color: #146F50;
 }
 .checkout-faqs .alert form .form_control:focus {
   border-color: #2A7D2E;
@@ -5374,21 +5374,21 @@ ul.slick-dots li.slick-active {
   margin-bottom: 20px;
   padding: 17px 20px;
   line-height: 1.5;
-  color: #0B3D2C;
+  color: #146F50;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 .checkout-form .nice-select.placeholder, .checkout-form .form_control.placeholder {
-  color: #0B3D2C;
+  color: #146F50;
 }
 .checkout-form .nice-select:-moz-placeholder, .checkout-form .form_control:-moz-placeholder {
-  color: #0B3D2C;
+  color: #146F50;
 }
 .checkout-form .nice-select::-moz-placeholder, .checkout-form .form_control::-moz-placeholder {
-  color: #0B3D2C;
+  color: #146F50;
 }
 .checkout-form .nice-select::-webkit-input-placeholder, .checkout-form .form_control::-webkit-input-placeholder {
-  color: #0B3D2C;
+  color: #146F50;
 }
 .checkout-form .nice-select:focus, .checkout-form .form_control:focus {
   border-color: #2A7D2E;
@@ -5791,7 +5791,7 @@ ul.slick-dots li.slick-active {
   font-size: 30px;
   -webkit-padding-start: 40px;
           padding-inline-start: 40px;
-  border-left: 5px solid #0B3D2C;
+  border-left: 5px solid #146F50;
   font-size: 30px;
   margin-bottom: 18px;
 }
@@ -6243,7 +6243,7 @@ ul.slick-dots li.slick-active {
   float: right;
 }
 .sidebar-widget-area .widget-category ul li a:hover {
-  border-color: #0B3D2C;
+  border-color: #146F50;
 }
 .sidebar-widget-area .widget-recent-post .recent-post-list .post-thumbnail-content {
   display: -webkit-box;
@@ -6580,24 +6580,24 @@ ul.slick-dots li.slick-active {
   padding-bottom: 24px;
   border-bottom: 1px solid rgba(11, 61, 44, 0.1);
   margin-bottom: 25px;
-  color: #0B3D2C;
+  color: #146F50;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
 .contact-form .form_control.placeholder {
-  color: #0B3D2C;
+  color: #146F50;
   opacity: 1;
 }
 .contact-form .form_control:-moz-placeholder {
-  color: #0B3D2C;
+  color: #146F50;
   opacity: 1;
 }
 .contact-form .form_control::-moz-placeholder {
-  color: #0B3D2C;
+  color: #146F50;
   opacity: 1;
 }
 .contact-form .form_control::-webkit-input-placeholder {
-  color: #0B3D2C;
+  color: #146F50;
   opacity: 1;
 }
 .contact-form .form_control:focus {

@@ -68,7 +68,58 @@ const Index = () => {
             <img src="assets/images/hero/bg.png" className="waves two" alt />
           </div>
           {/*====== Hero Slider ======*/}
-          <Slider {...sliderProps.heroSliderTwo} className="hero-slider-two">
+          <Slider {...sliderProps.heroSliderTwo} className="hero-slider-two" autoplay>
+            {/*====== Single Slider ======*/}
+            <div className="single-slider">
+              <div
+                className="image-layer bg_cover"
+                style={{
+                  backgroundImage: "url(assets/images/service/irrigation1.png)",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                }}
+              />
+              <div className="container">
+                <div className="row justify-content-center">
+                  <div className="col-xl-10">
+                    {/*====== Hero Content ======*/}
+                    <div className="hero-content text-left">
+                      <span
+                        className="sub-title"
+                        data-animation="fadeInUp"
+                        data-delay=".4s"
+                      >
+                        Drip, Sprinkler, Center Pivot irrigation system
+                      </span>
+                      <h1 data-animation="fadeInDown" data-delay=".5s">
+                       Irrigation system
+                      </h1>
+                      <p data-animation="fadeInUp" data-delay=".6s">
+                        Reliable, Cost-effective design and user–friendly systems
+                      </p>
+                      <div
+                        className="hero-button mb-30"
+                        data-animation="fadeInDown"
+                        data-delay=".7s"
+                      >
+                        <Link legacyBehavior href="/about">
+                          <a className="main-btn golden-btn mb-10">
+                            Explore More
+                          </a>
+                        </Link>
+                        <Link legacyBehavior href="/index">
+                          <a className="main-btn filled-btn filled-white mb-10">
+                            Projects
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
             {/*====== Single Slider ======*/}
             <div className="single-slider">
               <div
@@ -112,54 +163,6 @@ const Index = () => {
                                 </a>
                               </Link>
                       </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/*====== Single Slider ======*/}
-            <div className="single-slider">
-              <div
-                className="image-layer bg_cover"
-                style={{
-                  backgroundImage:
-                    "url(assets/images/service/drip_and_splinkler.jpg)",
-                }}
-              />
-              <div className="container">
-                <div className="row justify-content-center">
-                  <div className="col-xl-10">
-                    {/*====== Hero Content ======*/}
-                    <div className="hero-content text-left">
-                      <span
-                        className="sub-title"
-                        data-animation="fadeInUp"
-                        data-delay=".4s"
-                      >
-                        Drip, Sprinkler, Center Pivot irrigation system
-                      </span>
-                      <h1 data-animation="fadeInDown" data-delay=".5s">
-                       Irrigation system
-                      </h1>
-                      <p data-animation="fadeInUp" data-delay=".6s">
-                        Reliable, Cost-effective design and user–friendly systems
-                      </p>
-                      <div
-                        className="hero-button mb-30"
-                        data-animation="fadeInDown"
-                        data-delay=".7s"
-                      >
-                        <Link legacyBehavior href="/about">
-                          <a className="main-btn golden-btn mb-10">
-                            Explore More
-                          </a>
-                        </Link>
-                        <Link legacyBehavior href="/index">
-                          <a className="main-btn filled-btn filled-white mb-10">
-                            Projects
-                          </a>
-                        </Link>
                       </div>
                     </div>
                   </div>
@@ -225,7 +228,7 @@ const Index = () => {
             <div className="col-lg-6">
               <div className="section-title mb-55 wow fadeInLeft">
                 <span className="sub-title">
-                  <i className="flaticon-plant" />
+                  
                   What We Do For Irrigation
                 </span>
                 <h2>Irrigation systems and types we can install </h2>
@@ -351,7 +354,7 @@ const Index = () => {
                 <div className="section-title">
                   <div className="section-title mb-50">
                     <span className="sub-title">
-                      <i className="flaticon-plant" />
+                      
                       About NETAGRO
                     </span>
                     <h2>We Care Your Garden &amp; Landscaping</h2>
@@ -419,7 +422,7 @@ const Index = () => {
               {/*====== Section Title ======*/}
               <div className="section-title text-white text-center mb-50 wow fadeInDown">
                 <span className="sub-title">
-                  <i className="flaticon-plant" />
+                  
                   Popular Services
                 </span>
                 <h2>We Care For Your Projects</h2>
@@ -680,14 +683,14 @@ const Index = () => {
                       />
                     )}
                     <div className="hover-overlay">
-                      <Link legacyBehavior href="">
+                      <Link legacyBehavior href={`projects/${project.projectName}`}>
                         <a className="icon-btn">
                           <i className="fas fa-arrow-right" />
                         </a>
                       </Link>
                       <div className="hover-content text-white">
                         <h4 className="title">{project.projectName}</h4>
-                        <p>{project.projectType}</p>
+                        <p> <a href={`projects/${project.projectName}`}>{project.projectName}</a></p>
                       </div>
                     </div>
                   </div>
@@ -722,7 +725,7 @@ const Index = () => {
             <div className="col-xl-6 col-lg-12">
               <div className="section-title text-center mb-50 wow fadeInDown">
                 <span className="sub-title">
-                  <i className="flaticon-plant" />
+                  
                   Testimonials
                 </span>
                 <h2>Global Clients Feedback</h2>
@@ -796,7 +799,6 @@ const Index = () => {
         </div>
       </section>
       {/*====== End Testimonial Section  ======*/}
-      {/*====== End Testimonial Section  ======*/}
       {/*====== Start Blog Section  ======*/}
       <section className="blog-section pt-100 pb-60">
         <div className="container">
@@ -804,10 +806,10 @@ const Index = () => {
             <div className="col-xl-7 col-lg-12">
               <div className="section-title text-center mb-50 wow fadeInDown">
                 <span className="sub-title">
-                  <i className="flaticon-plant" />
-                  News &amp; Blog
+                  
+                  News &amp; Events
                 </span>
-                <h2>Read Latest News &amp; Blog</h2>
+                <h2>Read Latest News &amp; Events</h2>
               </div>
             </div>
           </div>
@@ -833,7 +835,7 @@ const Index = () => {
                       </h4>
                       <div className="author">
                         <img
-                          src="assets/images/blog/author-thumb-4.jpg"
+                          src="assets/images/logo/netagro-logo2.png"
                           alt="Author Image"
                         />
                         <h6>

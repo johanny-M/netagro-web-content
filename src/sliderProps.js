@@ -15,6 +15,8 @@ export const sliderProps = {
     autoplay: true,
     slidesToShow: 4,
     slidesToScroll: 1,
+    fade: false,
+    cssEase: "linear",
     responsive: [
       {
         breakpoint: 1400,
@@ -102,10 +104,11 @@ export const sliderProps = {
     dots: false,
     arrows: true,
     infinite: true,
-    speed: 800,
-    fade: true,
-    cssEase: "cubic-bezier(0.7, 0, 0.3, 1)",
-    autoplay: false,
+    speed: 1600,
+    fade: false,
+    cssEase: "linear",
+    autoplay: true,
+    autoplaySpeed: 3000, 
     slidesToShow: 1,
     slidesToScroll: 1,
     prevArrow: <Arrow icon={"far fa-arrow-left"} extraClass={"prev"} />,
@@ -114,7 +117,7 @@ export const sliderProps = {
       {
         breakpoint: 767,
         settings: {
-          arrows: false,
+          arrows: false, 
         },
       },
     ],

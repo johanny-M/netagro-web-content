@@ -2,7 +2,7 @@ import Link from "next/link";
 const Footer3 = () => {
   return (
     <footer className="footer-area footer-wave pt-100 p-r z-1">
-      <div className="wave-shapes">
+      {/* <div className="wave-shapes">
         <img
           src="../../assets/images/shape/wave-shape-1.png"
           className="w-shape one"
@@ -13,17 +13,17 @@ const Footer3 = () => {
           className="w-shape two"
           alt="wave shape"
         />
-      </div>
+      </div> */}
       <div className="footer-wrapper text-white main-bg p-r z-1">
         <div className="shape shape-one animate-float-y">
-          <span>
+          {/* <span>
             <img src="../../assets/images/shape/tree.png" alt="Tree Image" />
-          </span>
+          </span> */}
         </div>
         <div className="shape shape-two animate-float-y">
-          <span>
+          {/* <span>
             <img src="../../assets/images/shape/tree2.png" alt="Tree Image" />
-          </span>
+          </span> */}
         </div>
         <div className="container">
           {/*====== Footer Widget ======*/}
