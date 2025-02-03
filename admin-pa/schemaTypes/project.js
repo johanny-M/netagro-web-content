@@ -24,9 +24,13 @@ export default {
             type: 'string',
         },
         {
-            name: 'description',
-            title: 'Description',
-            type: 'text',
+            name:'description',
+            title:'Description',
+            type:'array',
+            of:[
+                {type:'block'},
+                {type:'image'},
+            ],
         },
         {
             name: 'images',

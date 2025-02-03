@@ -2,7 +2,44 @@ import PageBanner from "@/src/components/PageBanner";
 import Partners from "@/src/components/Partners";
 import Layout from "@/src/layouts/Layout";
 import Link from "next/link";
+import { useState } from "react";
+import { sendMessage } from "@/src/utils/api";
+
+
 const Contact = () => {
+  const [form, setForm] = useState(
+    {
+      name: "",
+      email: "",
+      number: "",
+      subject: "",
+      message: "",
+    },
+  )
+  const [status, setStatus] = useState("");
+
+  const handleChange = async (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  }
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log(form);
+    const result = await sendMessage(form);
+    if (result.success) {
+      setForm({
+        name: "",
+        email: "",
+        number: "",
+        subject: "",
+        message: "",
+      });
+    } else {
+      setStatus(result.message);
+    }
+  }
+
   return (
     <Layout>
       <PageBanner pageName={"Contact Us"} />
@@ -16,11 +53,12 @@ const Contact = () => {
                 {/*====== Contact Info Item ======*/}
                 <div className="contact-info-item text-center">
                   <div className="icon">
-                    <img src="assets/images/icon/icon-1.png" alt="icon" />
+                    <img src="../../assets/images/icon/icon-1.png" alt="icon" />
                   </div>
                   <div className="info">
                     <span className="title">Location</span>
-                    <h6>55 Main Street, 2nd Floor Melbourne, Australia</h6>
+                    <h6>Bole Sub city, Near Adey Ababa Stadium, Addis Ababa, Ethiopia </h6><hr />
+                    <h6>Meshek 83 Kfar Yehoshua 3658200, Israel</h6>
                   </div>
                 </div>
               </div>
@@ -33,10 +71,7 @@ const Contact = () => {
                   <div className="info">
                     <span className="title">Email Address</span>
                     <h6>
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
-                    </h6>
-                    <h6>
-                      <a href="mailto:infogarden.net">infogarden.net</a>
+                      <a href="mailto:info@netagroengineering.com">info@netagroengineering.com</a>
                     </h6>
                   </div>
                 </div>
@@ -50,7 +85,9 @@ const Contact = () => {
                   <div className="info">
                     <span className="title">Phone No</span>
                     <h6>
-                      <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                      <a href="tel:+251118627424"> Tel : +251118627424</a> <hr />
+                      <a href="tel:+251118627424"> Mobile : +251118627424</a> <hr />
+                      <a href="tel:+251118627424"> Mobile : +251118627424</a>
                     </h6>
                   </div>
                 </div>
@@ -80,14 +117,14 @@ const Contact = () => {
               <div className="col-lg-6">
                 {/*=== Map Box ===*/}
                 <div className="map-box wow fadeInLeft mb-50">
-                  <iframe src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed" />
+                  <iframe src="https://maps.google.com/maps?q=Yoki%20Building&t=&z=13&ie=UTF8&iwloc=&output=embed" />
                 </div>
               </div>
               <div className="col-lg-6">
                 {/*====== Contact Form Wrapper ======*/}
                 <div className="contact-form-wrapper mb-50 wow fadeInRight">
                   <form
-                    onSubmit={(e) => e.preventDefault()}
+                    onSubmit={handleSubmit}
                     className="contact-form"
                   >
                     <div className="form_group">
@@ -99,6 +136,8 @@ const Contact = () => {
                         className="form_control"
                         placeholder="Full Name"
                         name="name"
+                        value={form.name}
+                        onChange={handleChange}
                         required
                       />
                     </div>
@@ -111,6 +150,8 @@ const Contact = () => {
                         className="form_control"
                         placeholder="Email Address"
                         name="email"
+                        value={form.email}
+                        onChange={handleChange}
                         required
                       />
                     </div>
@@ -123,6 +164,8 @@ const Contact = () => {
                         className="form_control"
                         placeholder="Phone Number"
                         name="number"
+                        value={form.number}
+                        onChange={handleChange}
                         required
                       />
                     </div>
@@ -135,6 +178,8 @@ const Contact = () => {
                         className="form_control"
                         placeholder="Subject"
                         name="subject"
+                        value={form.subject}
+                        onChange={handleChange}
                         required
                       />
                     </div>
@@ -147,6 +192,8 @@ const Contact = () => {
                         rows={3}
                         placeholder="Message"
                         name="message"
+                        value={form.message}
+                        onChange={handleChange}
                         defaultValue={""}
                       />
                     </div>

@@ -2,28 +2,28 @@ import Link from "next/link";
 const Footer3 = () => {
   return (
     <footer className="footer-area footer-wave pt-100 p-r z-1">
-      <div className="wave-shapes">
+      {/* <div className="wave-shapes">
         <img
-          src="assets/images/shape/wave-shape-1.png"
+          src="../../assets/images/shape/wave-shape-1.png"
           className="w-shape one"
           alt="wave shape"
         />
         <img
-          src="assets/images/shape/wave-shape-2.png"
+          src="../../assets/images/shape/wave-shape-2.png"
           className="w-shape two"
           alt="wave shape"
         />
-      </div>
+      </div> */}
       <div className="footer-wrapper text-white main-bg p-r z-1">
         <div className="shape shape-one animate-float-y">
-          <span>
-            <img src="assets/images/shape/tree.png" alt="Tree Image" />
-          </span>
+          {/* <span>
+            <img src="../../assets/images/shape/tree.png" alt="Tree Image" />
+          </span> */}
         </div>
         <div className="shape shape-two animate-float-y">
-          <span>
-            <img src="assets/images/shape/tree2.png" alt="Tree Image" />
-          </span>
+          {/* <span>
+            <img src="../../assets/images/shape/tree2.png" alt="Tree Image" />
+          </span> */}
         </div>
         <div className="container">
           {/*====== Footer Widget ======*/}
@@ -37,7 +37,7 @@ const Footer3 = () => {
                       <Link legacyBehavior href="/index">
                         <a>
                           <img
-                            src="assets/images/logo/netagro-logo2.png"
+                            src="../../assets/images/logo/netagro-logo2.png"
                             alt="Logo"
                           />
                         </a>
@@ -128,7 +128,10 @@ const Footer3 = () => {
                 <div className="copyright-nav float-lg-right">
                   <ul>
                     <li>
-                      <a href="#">Faqs</a>
+                      <Link href="/faqs">
+                       Faqs
+                      </Link>
+                      
                     </li>
                     <li>
                       <a href="#"></a>

@@ -1,7 +1,16 @@
 import Link from "next/link";
+import { useState } from "react";
 import { Modal } from "react-bootstrap";
+import { subscribeToNewsletter } from "../utils/api";
 
 const Sidebar = ({ show, handleClose }) => {
+  const [email, setEmail] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(email);
+    subscribeToNewsletter(email);
+  }
   return (
     <Modal
       className="modal fade sidebar-panel-wrapper"
@@ -20,15 +29,13 @@ const Sidebar = ({ show, handleClose }) => {
                   <Link legacyBehavior href="/index">
                     <a className="footer-logo">
                       <img
-                        src="assets/images/logo/logo-white.png"
+                        src="../../assets/images/logo/netagro-logo2.png"
                         alt="Brand Logo"
                       />
                     </a>
                   </Link>
                   <p>
-                    Sed ut perspiciatis unde omni natus voluptatem accusantium
-                    doloremque laudantium aperia maquep quae abillo inventore
-                    veritatis architecto
+                  Shaping the future of agriculture with smart irrigation solutions
                   </p>
                   <div className="social-item">
                     <h6>Follow Us</h6>
@@ -50,7 +57,7 @@ const Sidebar = ({ show, handleClose }) => {
                       </li>
                       <li>
                         <a href="#">
-                          <i className="fab fa-pinterest-p" />
+                          <i className="fab fa-tiktok" />
                         </a>
                       </li>
                     </ul>
@@ -65,7 +72,10 @@ const Sidebar = ({ show, handleClose }) => {
                       <i className="far fa-map-marker-alt" />
                       Location
                     </h6>
-                    <p>558 Main Street, 2nd Block Melbourne, Australia</p>
+                    <p>Ethiopia: Addis Ababa, Bole Sub city, Near Adey
+                      Ababa Stadium</p>
+                      <p>Israel: Meshek 83 Kfar Yehoshua
+                      3658200</p>
                   </div>
                   <div className="contact-info-item-two">
                     <h6 className="title">
@@ -73,7 +83,7 @@ const Sidebar = ({ show, handleClose }) => {
                       Email Us
                     </h6>
                     <p>
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:info@netagroengineering.com">info@netagroengineering.com</a>
                     </p>
                   </div>
                   <div className="contact-info-item-two">
@@ -82,7 +92,9 @@ const Sidebar = ({ show, handleClose }) => {
                       Hotline
                     </h6>
                     <p>
-                      <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                      <a href="tel:+251118627424">Tel : +251118627424</a>
+                      <a href="tel:+251118627424">Mobile : +251118627424</a>
+                      <a href="tel:+251118627424">Mobile : +251118627424</a>
                     </p>
                   </div>
                 </div>
@@ -96,6 +108,8 @@ const Sidebar = ({ show, handleClose }) => {
                         type="email"
                         className="form_control"
                         placeholder="Email Address"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
                         required
                       />
                       <button className="main-btn secondary-btn">
@@ -103,118 +117,6 @@ const Sidebar = ({ show, handleClose }) => {
                       </button>
                     </div>
                   </form>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="sidebar-gallery pt-80">
-            <div className="row">
-              <div className="col-lg-2 col-md-4 col-4">
-                <div className="single-gallery-item">
-                  <div className="gallery-img">
-                    <img
-                      src="assets/images/gallery/sgl-1.jpg"
-                      alt="Gallery Image"
-                    />
-                    <div className="hover-overlay">
-                      <a
-                        href="assets/images/gallery/sgl-1.jpg"
-                        className="img-popup icon-btn"
-                      >
-                        <i className="far fa-plus" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-md-4 col-4">
-                <div className="single-gallery-item">
-                  <div className="gallery-img">
-                    <img
-                      src="assets/images/gallery/sgl-2.jpg"
-                      alt="Gallery Image"
-                    />
-                    <div className="hover-overlay">
-                      <a
-                        href="assets/images/gallery/sgl-2.jpg"
-                        className="img-popup icon-btn"
-                      >
-                        <i className="far fa-plus" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-md-4 col-4">
-                <div className="single-gallery-item">
-                  <div className="gallery-img">
-                    <img
-                      src="assets/images/gallery/sgl-3.jpg"
-                      alt="Gallery Image"
-                    />
-                    <div className="hover-overlay">
-                      <a
-                        href="assets/images/gallery/sgl-3.jpg"
-                        className="img-popup icon-btn"
-                      >
-                        <i className="far fa-plus" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-md-4 col-4">
-                <div className="single-gallery-item">
-                  <div className="gallery-img">
-                    <img
-                      src="assets/images/gallery/sgl-4.jpg"
-                      alt="Gallery Image"
-                    />
-                    <div className="hover-overlay">
-                      <a
-                        href="assets/images/gallery/sgl-4.jpg"
-                        className="img-popup icon-btn"
-                      >
-                        <i className="far fa-plus" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-md-4 col-4">
-                <div className="single-gallery-item">
-                  <div className="gallery-img">
-                    <img
-                      src="assets/images/gallery/sgl-5.jpg"
-                      alt="Gallery Image"
-                    />
-                    <div className="hover-overlay">
-                      <a
-                        href="assets/images/gallery/sgl-6.jpg"
-                        className="img-popup icon-btn"
-                      >
-                        <i className="far fa-plus" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-2 col-md-4 col-4">
-                <div className="single-gallery-item">
-                  <div className="gallery-img">
-                    <img
-                      src="assets/images/gallery/sgl-6.jpg"
-                      alt="Gallery Image"
-                    />
-                    <div className="hover-overlay">
-                      <a
-                        href="assets/images/gallery/sgl-6.jpg"
-                        className="img-popup icon-btn"
-                      >
-                        <i className="far fa-plus" />
-                      </a>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
