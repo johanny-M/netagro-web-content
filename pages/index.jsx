@@ -81,6 +81,25 @@ const Index = () => {
               />
               <div className="container">
                 <div className="row justify-content-center">
+                  <div className="experience-box-two position-absolute" style={{ 
+                    top: '20px', 
+                    right: '50px',
+                    background: 'rgba(255, 255, 255, 0.9)',
+                    padding: '15px 25px',
+                    borderRadius: '10px',
+                    boxShadow: '0 4px 15px rgba(0, 0, 0, 0.1)',
+                    transform: 'scale(0.85)'
+                  }}>
+                      <h2 className="number" style={{ fontSize: '2.5rem', marginBottom: '5px' }}>
+                        <Counter end={7} />+
+                      </h2>
+                      <h6 style={{ fontSize: '0.9rem', marginBottom: '8px' }}>Years Of Experience</h6>
+                      <Link legacyBehavior href="/about">
+                        <a className="icon-btn">
+                          <i className="far fa-arrow-right" />
+                        </a>
+                      </Link>
+                  </div>
                   <div className="col-xl-10">
                     {/*====== Hero Content ======*/}
                     <div className="hero-content text-left">
@@ -113,7 +132,7 @@ const Index = () => {
                           </a>
                         </Link>
                       </div>
-                    </div>
+                    </div>                   
                   </div>
                 </div>
               </div>
@@ -130,6 +149,25 @@ const Index = () => {
               />
               <div className="container">
                 <div className="row justify-content-center">
+                <div className="experience-box-two position-absolute" style={{ 
+                    top: '20px', 
+                    right: '50px',
+                    background: 'rgba(255, 255, 255, 0.9)',
+                    padding: '15px 25px',
+                    borderRadius: '10px',
+                    boxShadow: '0 4px 15px rgba(0, 0, 0, 0.1)',
+                    transform: 'scale(0.85)'
+                  }}>
+                      <h2 className="number" style={{ fontSize: '2.5rem', marginBottom: '5px' }}>
+                        <Counter end={7} />+
+                      </h2>
+                      <h6 style={{ fontSize: '0.9rem', marginBottom: '8px' }}>Years Of Experience</h6>
+                      <Link legacyBehavior href="/about">
+                        <a className="icon-btn">
+                          <i className="far fa-arrow-right" />
+                        </a>
+                      </Link>
+                  </div>
                   <div className="col-xl-10">
                     {/*====== Hero Content ======*/}
                     <div className="hero-content text-center">
@@ -216,9 +254,6 @@ const Index = () => {
                   />
                 </div>
                 <div className="text">
-                  <div className="icon">
-                    <i className="flaticon-landscape-1" />
-                  </div>
                   <h5 className="title">Drip &amp; sprinkler systems</h5>
                 </div>
               </div>
@@ -237,9 +272,6 @@ const Index = () => {
                   />
                 </div>
                 <div className="text">
-                  <div className="icon">
-                    <i className="flaticon-watering-can" />
-                  </div>
                   <h5 className="title">Centre pivot &amp; lateral move systems</h5>
                 </div>
               </div>
@@ -258,9 +290,6 @@ const Index = () => {
                   />
                 </div>
                 <div className="text">
-                  <div className="icon">
-                    <i className="flaticon-lawnmower" />
-                  </div>
                   <h5 className="title">Manual &amp; automated systems</h5>
                 </div>
               </div>
@@ -279,9 +308,6 @@ const Index = () => {
                   />
                 </div>
                 <div className="text">
-                  <div className="icon">
-                    <i className="flaticon-spider-plant" />
-                  </div>
                   <h5 className="title">Rain water harvesting, tailings &amp; dust suppression</h5>
                 </div>
               </div>
@@ -389,12 +415,6 @@ const Index = () => {
                 data-wow-delay=".3s"
               >
                 <div className="service-info">
-                  <div className="shape icon-shape">
-                    <i className="flaticon-farming" />
-                  </div>
-                  <div className="icon">
-                    <i className="flaticon-farming" />
-                  </div>
                   <h4 className="title">
                     <Link legacyBehavior href="/landscaping">
                       <a>Landscaping</a>
@@ -423,12 +443,6 @@ const Index = () => {
                 data-wow-delay=".25s"
               >
                 <div className="service-info">
-                  <div className="shape icon-shape">
-                    <i className="flaticon-field-1" />
-                  </div>
-                  <div className="icon">
-                    <i className="flaticon-field-1" />
-                  </div>
                   <h4 className="title">
                     <Link legacyBehavior href="/drip_and_splinkler_irrigation">
                       <a>Drip and Sprinkler Irrigation System</a>
@@ -456,12 +470,6 @@ const Index = () => {
                 data-wow-delay=".2s"
               >
                 <div className="service-info">
-                  <div className="shape icon-shape">
-                    <i className="flaticon-agriculture" />
-                  </div>
-                  <div className="icon">
-                    <i className="flaticon-agriculture" />
-                  </div>
                   <h4 className="title">
                     <Link legacyBehavior href="/family_drip_irrigation">
                       <a>Family drip Irrigation System (FDS)</a>
@@ -490,12 +498,6 @@ const Index = () => {
                 data-wow-delay=".35s"
               >
                 <div className="service-info">
-                  <div className="shape icon-shape">
-                    <i className="flaticon-park" />
-                  </div>
-                  <div className="icon">
-                    <i className="flaticon-park" />
-                  </div>
                   <h4 className="title">
                     <Link legacyBehavior href="/center_pivot_irrigation">
                       <a>Center pivot irrigation system</a>
@@ -524,12 +526,6 @@ const Index = () => {
                 data-wow-delay=".4s"
               >
                 <div className="service-info">
-                  <div className="shape icon-shape">
-                    <i className="flaticon-rake" />
-                  </div>
-                  <div className="icon">
-                    <i className="flaticon-rake" />
-                  </div>
                   <h4 className="title">
                     <Link legacyBehavior href="/hydroseeding_rehabilitation">
                       <a>Hydroseeding / rehabilitation</a>
@@ -558,12 +554,6 @@ const Index = () => {
                 data-wow-delay=".45s"
               >
                 <div className="service-info">
-                  <div className="shape icon-shape">
-                    <i className="flaticon-growth-1" />
-                  </div>
-                  <div className="icon">
-                    <i className="flaticon-growth-1" />
-                  </div>
                   <h4 className="title">
                     <Link legacyBehavior href="/service-details">
                       <a>Equipments supply and import</a>
@@ -598,11 +588,6 @@ const Index = () => {
               <div className="col-lg-9">
                 {/*====== CTA Content Box ======*/}
                 <div className="cta-content-box d-flex align-items-center mb-40 wow fadeInLeft">
-                  <img
-                    src="assets/images/gallery/circle-logo.png"
-                    className="circle-logo"
-                    alt="Circle Logo"
-                  />
                   <h2>Looking For Some of Our Projects?</h2>
                 </div>
               </div>
