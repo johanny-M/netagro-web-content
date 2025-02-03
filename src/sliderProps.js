@@ -101,26 +101,19 @@ export const sliderProps = {
     slidesToScroll: 1,
   },
   heroSliderTwo: {
-    dots: false,
+    dots: true,
     arrows: true,
     infinite: true,
-    speed: 1600,
-    fade: false,
-    cssEase: "linear",
     autoplay: true,
-    autoplaySpeed: 3000, 
+    autoplaySpeed: 5000,
+    speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
+    fade: true,
+    cssEase: "cubic-bezier(0.7, 0, 0.3, 1)",
+    pauseOnHover: false,
     prevArrow: <Arrow icon={"far fa-arrow-left"} extraClass={"prev"} />,
     nextArrow: <Arrow icon={"far fa-arrow-right"} extraClass={"next"} />,
-    responsive: [
-      {
-        breakpoint: 767,
-        settings: {
-          arrows: false, 
-        },
-      },
-    ],
   },
   projectsSliderOne: {
     dots: true,

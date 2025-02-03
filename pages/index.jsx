@@ -64,8 +64,7 @@ const Index = () => {
         {/*====== Hero Wrapper ======*/}
         <div className="hero-wrapper-three">
           <div className="hero-waves">
-            <img src="assets/images/hero/bg-2.png" className="waves one" alt />
-            <img src="assets/images/hero/bg.png" className="waves two" alt />
+            <img src="assets/images/hero/bg.png" className="waves one" alt />
           </div>
           {/*====== Hero Slider ======*/}
           <Slider {...sliderProps.heroSliderTwo} className="hero-slider-two" autoplay>
@@ -163,54 +162,6 @@ const Index = () => {
                                 </a>
                               </Link>
                       </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/*====== Single Slider ======*/}
-            <div className="single-slider">
-              <div
-                className="image-layer bg_cover"
-                style={{
-                  backgroundImage:
-                    "url(assets/images/service/rainwater_harvesting.jpg)",
-                }}
-              />
-              <div className="container">
-                <div className="row justify-content-center">
-                  <div className="col-xl-10">
-                    {/*====== Hero Content ======*/}
-                    <div className="hero-content text-right">
-                      <span
-                        className="sub-title"
-                        data-animation="fadeInUp"
-                        data-delay=".4s"
-                      >
-                        Erosion Control
-                      </span>
-                      <h1 data-animation="fadeInDown" data-delay=".5s">
-                        Hydroseeding and Rehabilitation
-                      </h1>
-                      <p data-animation="fadeInUp" data-delay=".6s">
-                        Erosion control methods on construction sites or as an alternative to the traditional process of seed broadcasting
-                      </p>
-                      <div
-                        className="hero-button mb-30"
-                        data-animation="fadeInDown"
-                        data-delay=".7s"
-                      >
-                        <Link legacyBehavior href="/about">
-                          <a className="main-btn golden-btn mb-10">
-                            Explore More
-                          </a>
-                        </Link>
-                        <Link legacyBehavior href="/index">
-                          <a className="main-btn filled-btn filled-white mb-10">
-                            Projects
-                          </a>
-                        </Link>
                       </div>
                     </div>
                   </div>
