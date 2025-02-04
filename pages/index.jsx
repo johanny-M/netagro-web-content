@@ -226,9 +226,10 @@ const Index = () => {
             <div className="col-lg-6">
               <div className="features-content-box mb-55 wow fadeInRight">
                 <p>
-                NETAGRO is equipped with experienced engineers capable of doing the study,
-                design and implementation of modern irrigation projects for its customers with the best advises on 
-                the best and modern irrigation practices that are currently being applied in the world of modern irrigation
+                NETAGRO employs a team of skilled engineers 
+                with extensive experience in the study, design, and implementation of cutting-edge irrigation systems. 
+                We offer expert guidance on the latest and most efficient irrigation practices,
+                ensuring that our clients benefit from the most advanced solutions available in the industry today.
                 </p>
                 <Link legacyBehavior href="/about">
                   <a className="btn-link">
@@ -272,7 +273,7 @@ const Index = () => {
                   />
                 </div>
                 <div className="text">
-                  <h5 className="title">Centre pivot &amp; lateral move systems</h5>
+                  <h5 className="title">Centre pivot &amp; Lateral move systems</h5>
                 </div>
               </div>
             </div>
@@ -290,7 +291,7 @@ const Index = () => {
                   />
                 </div>
                 <div className="text">
-                  <h5 className="title">Manual &amp; automated systems</h5>
+                  <h5 className="title">Manual &amp; Automated systems</h5>
                 </div>
               </div>
             </div>
@@ -308,7 +309,8 @@ const Index = () => {
                   />
                 </div>
                 <div className="text">
-                  <h5 className="title">Rain water harvesting, tailings &amp; dust suppression</h5>
+                  <h5 className="title">Rain water harvesting, 
+                    Tailings &amp; dust suppression</h5>
                 </div>
               </div>
             </div>
@@ -337,20 +339,20 @@ const Index = () => {
                     <h2>We Care Your Garden &amp; Landscaping</h2>
                   </div>
                   <p className="mb-45">
-                  We bring knowledge and experience to your project. We have the creativity to offer “Out of the box” 
-                  ideas and designs. We are familiar with the correct materials and plants to use for your project. 
-                  We have the experience to do the specialized installations our competitors aren’t capable of producing!
+                  We bring a blend of expertise and creativity to every project, 
+                  offering innovative designs and the right materials for optimal results. 
+                  Our team excels in specialized installations, delivering solutions that set us apart from the competition.
                   </p>
                   <div className="about-inner-content d-flex justify-content-between">
                     <div className="inner-content">
                       <ul className="check-style-one mb-45">
                         <li>
                           <i className="far fa-check" />
-                          We’re Experience Gardening
+                          A Trusted Name in Gardening &amp; Green Space Design
                         </li>
                         <li>
                           <i className="far fa-check" />
-                          Awards Winning &amp; Expert Team Member
+                          Leading Experts Delivering Excellence in the Sector
                         </li>
                       </ul>
                       <Link legacyBehavior href="/about">
@@ -407,35 +409,7 @@ const Index = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-xl-4 col-lg-6 col-sm-12">
-              {/*====== Service Item ======*/}
-              {/*====== Service Item ======*/}
-              <div
-                className="single-service-item mb-30 wow fadeInUp"
-                data-wow-delay=".3s"
-              >
-                <div className="service-info">
-                  <h4 className="title">
-                    <Link legacyBehavior href="/landscaping">
-                      <a>Landscaping</a>
-                    </Link>
-                  </h4>
-                </div>
-                <div className="service-img">
-                  <Link legacyBehavior href="/landscaping">
-                    <a className="icon-btn">
-                      <i className="far fa-plus" />
-                    </a>
-                  </Link>
-                  <img
-                    src="assets/images/service/sv-3.jpg"
-                    alt="Service Image"
-                    height={250}
-                    width={300}
-                  />
-                </div>
-              </div>
-            </div>
+            
             <div className="col-xl-4 col-lg-6 col-sm-12">
               {/*====== Service Item ======*/}
               <div
@@ -457,6 +431,34 @@ const Index = () => {
                   </Link>
                   <img
                     src="assets/images/service/drip_and_splinkler.jpg"
+                    alt="Service Image"
+                    height={250}
+                    width={300}
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-4 col-lg-6 col-sm-12">
+              {/*====== Service Item ======*/}
+              <div
+                className="single-service-item mb-30 wow fadeInDown"
+                data-wow-delay=".35s"
+              >
+                <div className="service-info">
+                  <h4 className="title">
+                    <Link legacyBehavior href="/center_pivot_irrigation">
+                      <a>Center pivot irrigation system</a>
+                    </Link>
+                  </h4>
+                </div>
+                <div className="service-img">
+                  <Link legacyBehavior href="/center_pivot_irrigation">
+                    <a className="icon-btn">
+                      <i className="far fa-plus" />
+                    </a>
+                  </Link>
+                  <img
+                    src="assets/images/service/Centre_pivot _lateral_move_systems.jpg"
                     alt="Service Image"
                     height={250}
                     width={300}
@@ -493,25 +495,26 @@ const Index = () => {
             </div>
             <div className="col-xl-4 col-lg-6 col-sm-12">
               {/*====== Service Item ======*/}
+              {/*====== Service Item ======*/}
               <div
-                className="single-service-item mb-30 wow fadeInDown"
-                data-wow-delay=".35s"
+                className="single-service-item mb-30 wow fadeInUp"
+                data-wow-delay=".3s"
               >
                 <div className="service-info">
                   <h4 className="title">
-                    <Link legacyBehavior href="/center_pivot_irrigation">
-                      <a>Center pivot irrigation system</a>
+                    <Link legacyBehavior href="/landscaping">
+                      <a>Landscaping</a>
                     </Link>
                   </h4>
                 </div>
                 <div className="service-img">
-                  <Link legacyBehavior href="/center_pivot_irrigation">
+                  <Link legacyBehavior href="/landscaping">
                     <a className="icon-btn">
                       <i className="far fa-plus" />
                     </a>
                   </Link>
                   <img
-                    src="assets/images/service/Centre_pivot _lateral_move_systems.jpg"
+                    src="assets/images/service/sv-3.jpg"
                     alt="Service Image"
                     height={250}
                     width={300}
@@ -519,6 +522,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
+            
             <div className="col-xl-4 col-lg-6 col-sm-12">
               {/*====== Service Item ======*/}
               <div
